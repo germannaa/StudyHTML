@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+       <title> Minha Primeira Página Web</title>
+       <meta charset = "utf-8">
+    </head>
+
+    <body>
+        
+
+        <nav>
+            <a href ="/">Home</a>
+            <a href = "https://www.google.com.br/" > Google </a>
+            <a href ="/">About</a>
+            <a href ="/">Contact</a>
+        </nav>
+
+        <header> 
+            <h2 style="text-align: center;"> Titulo antes da Logo Unichristus </h2>
+            <img src = "/img/logo"
+            alt = "logo unichristus" title="Texto quando passa mouse por cima" width="100px" height="100px"
+        </header>
+
+
+        <h1> 
+             Página </h1>
+        <p> Esta é minha  página web! :) </p>
+        
+        <main>
+            <blockquote cite="https://www.lipsum.com/">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type 
+                    specimen book. It has survived not only five centuries, but also the leap into
+                     electronic typesetting, remaining essentially unchanged. It was popularised in
+                      the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                       and more recently with desktop publishing software like Aldus PageMaker including 
+                       versions of Lorem Ipsum
+                </p>
+            </blockquote>
+
+            <div style="border: 5px black solid; padding: 10px;">
+                <h2 style="text-align: center"> Olá </h2>
+
+                <p>Lorem Ipsum is simply dummy text of the printingLorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type 
+                    specimen book. It has survived not only five centuries, but also the leap into
+                     electronic typesetting, remaining </p>
+            </div>
+
+            <div style="border: 4px rgb(32, 211, 56) solid; padding: 10px;">
+                <h2>Tecnologias</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <ul>
+                        <li>blabla1</li>
+                        <ul>
+                            <li>blabla2</li>
+                            <li>blabla2</li>
+                            <li>blabla2</li>
+                        </ul>
+                        <li>blabla1</li>
+                        <li>blabla1</li>
+                    </ul>
+                    <li>JS</li>
+                    <ul>
+                        <li>blabla</li>
+                        <li>blabla</li>
+                        <li>blabla</li>
+                    </ul>
+                </ul>
+            </div>
+
+            <div style="border: 4px rgb(211, 32, 202) solid; padding: 10px;">
+                <h2>Blabla</h2>
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>blabla1111</li>
+                        <ol reversed>
+                            <li>blabla1</li>
+                            <li>blabla2</li>
+                            <li>blabla3</li>
+                        </ul>
+                        <li>blabla222</li>
+                        <li>blabla333</li>
+                    
+                    <li>JS</li>
+                    
+                </ol>
+            </div>
+
+            <div style="border: 4px rgb(32, 211, 56) solid; padding: 10px;">
+            <h2> Carros</h2>
+            <dl>
+                <dt>Carros 1</dt>
+                <dd>Fiat</dd>
+                <dd>WV</dd>
+            </dl> 
+         </div>
+
+         <div style="border: 4px rgb(32, 211, 56) solid; padding: 10px;">
+            <p>
+                Lorem Ipsum is <span style="font-size: large; color: blue; font-family: monospace;">simply dummy</span> text of the <span style="font-size: large; color: rgb(255, 4, 25); font-family: monospace;"> blablabla </span> and typesetting industry. 
+               
+            </p>
+        </div>
+
+         <!--Comentario não renderiza-->
+        </main>
+        
+        
+
+
+    </body>
+</html>
