@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>
+           Terceiro Exercicio HTML
+        </title>
+        <style>
+            table, tr, th, td{
+                border-style: solid;
+                border-width: 1px;
+                border-color: #000;
+                border-collapse: collapse;
+                
+            }
+            th {
+                text-align: center;
+                background-color: darkgoldenrod;
+            }
+            
+        </style>
+        
+    </head>
+
+    <body style="background-color: rgb(252, 197, 206);">
+        <h1 style="text-align:center"> Exemplos de CSS inline </h1>
+            <div style = "text-align: center; border-style: solid; border-color: black; background-color: cornflowerblue;">  
+                <header style="font-family: monospace;">
+                    <h2> Titulo </h2>
+                    <p style="font-size: 24px; font-family: monospace"> SubTitulo </p>
+
+
+                </header> 
+            </div>
+             <div style="border-style: solid; border-color: black; background-color: rgb(171, 156, 241);  padding: 5px;">
+                 <main>
+                    Meu Texto. Meu Texto. Meu Texto. Meu Texto. Meu Texto. Meu Texto. Meu Texto. Meu Texto. Meu Texto. Meu Texto. 
+                    Meu Texto. Meu Texto. Meu Texto. Meu Texto. Meu Texto. Meu Texto. Meu Texto. Meu Texto. Meu Texto. Meu Texto. 
+                    Meu Texto. Meu Texto. Meu Texto. Meu Texto. Meu Texto. Meu Texto. Meu Texto. Meu Texto. Meu Texto. Meu Texto. 
+    
+                </main>
+             </div>
+
+             <div style="color: white; background-color: rgb(226, 171, 226); border-color: rgb(105, 113, 218); border-width: 3px; border-style: solid;">
+                <p>
+                    Meu Texto. Meu Texto. Meu Texto. Meu Texto. Meu Texto. Meu Texto. Meu Texto. </p>
+             </div>
+             <nav style="font: message-box; font-family:Tahoma;">
+                 <ul>
+                     <li> About </li>
+                     <li> Home </li>
+                     <li> Content </li>
+                 </ul>
+             </nav>
+                <h2> Tabela 01 </h2>
+             <table>
+                 <!---Linha 01-->
+                 <tr>
+                     <th> <b> ID </b></th>
+                     <th><b> Nome  </b></th>
+                     <th><b> Curso </b></th>
+                 </tr>
+                 <!---Linha 02-->
+                 <tr>
+                     <td> 1  </td>
+                     <td> Germanna </td>
+                     <td> ADS </td>
+                 </tr>
+                 <!---Linha 03-->
+                 <tr>
+                     <td> 2</td>
+                     <td> Fulano </td>
+                     <td> ADS </td>
+                 </tr>
+
+             </table>
+
+             <h2> Tabela 02    </h2>
+
+             <table>
+                 <caption> Tabela 02</caption>
+                 <thead>
+                    <tr>
+                        <th> <b> ID </b></th>
+                        <th><b> Nome  </b></th>
+                        <th><b> Nota </b></th>
+                    </tr>
+                 </thead>
+                 <tbody>
+                    <tr>
+                        <td> 1  </td>
+                        <td> Germanna </td>
+                        <td> 10.0 </td>
+                    </tr>
+                    <tr>
+                        <td> 2</td>
+                        <td> Fulano </td>
+                        <td> 5.0 </td>
+                    </tr>
+                 </tbody>
+                 <tfoot>
+                     <tr>
+                         <td>...</td>
+                         <td>...</td>
+                         <td>...</td>
+                     </tr>
+                 </tfoot>
+             </table>
+
+             <h2> Tabela 03</h2>
+             <table>
+                 <tr>
+                    <th> ID </th>
+                    <td> 01</td>
+                    <td> 02 </td>
+
+                 </tr>
+                 <tr>
+                    <th> Nome </th>
+                    <td> Germanna </td>
+                    <td> Fulano </td>
+
+                 </tr>
+                 <tr>
+                    <th> Nota </th>
+                    <td> 10.0 </td>
+                    <td> 6.0 </td>
+
+                 </tr>
+             </table>
+
+             <h2>Tabela 04</h2>
+             <table>
+                <tr>
+                    <th rowspan="2"> <b> Nome </b></th>
+                    <th colspan="2"><b> Idade  </b></th>
+                    
+                </tr>
+                
+                <tr>
+                    <td> Germanna </td>
+                    <td> 1 </td>
+                </tr>
+                
+                <tr>
+                    <td> Fulano </td>
+                    <td> 2 </td>
+                </tr>
+
+             </table>
+    </body>
+    </html>
