@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>
+           Quinto Exercicio HTML
+        </title>
+
+        <style>
+            
+            .flash-card{
+                border-style: solid;
+                border-width: 2px;
+                border-color: black;
+                background-color: rgba(0, 0, 255, 0.5);
+                padding: 5px;
+                margin: 5px;
+                text-align: center;
+            }
+            .flash-card_2{
+                border-style: solid;
+                border-width: 2px;
+                border-color: black;
+                background-color: rgba(255, 0, 128, 0.5);
+                padding: 5px;
+                margin: 5px;
+                text-align: center;
+            }
+            .new_font{
+                font-family: monospace;
+            }
+
+            #new-size{
+                font-size: 25px;
+            }
+
+            #changes{
+                background-color: salmon;
+                font-family: sans-serif;
+            }
+
+        </style>
+        </head>
+
+        <body>
+            <h2>Utilizando Classes</h2>
+
+            <div class="flash-card">
+              <h2> Titulo</h2>
+              <p> Flash Card element</p>
+            </div>
+
+        <div class="flash-card">
+            <h2 id="my-header"> Titulo</h2>
+            <p> Flash Card element</p>
+        </div>
+
+        <div>
+            <!--Sem Flash Card-->
+            <h2> Titulo</h2>
+            <p> Flash Card element</p>
+        </div>
+
+        <!--FlashCard2-->
+        <div class="flash-card_2">
+            <h2> Titulo</h2>
+            <p> Flash Card element</p>
+        </div>
+
+        <div class="flash-card" id="changes">
+            <h2> Titulo</h2>
+            <p> Flash Card element</p>
+        </div>
+
+        <!--Mais de uma classe associada ao mesmo elemento-->
+        <div class="flash-card new_font" id="new-size">
+            <h2> Titulo</h2>
+            <p> Flash Card element</p>
+        </div>
+
+        <!--JAVASCRIPT-->
+        <!--Pega todos dessa classe (no arreio), e altera o block para none (depararecer da tela)-->
+        <button onclick="hideCard()"> hide </button>
+        <button onclick="showCard()"> show </button>
+        <button onclick="modifyHeader()"> Change title </button>
+   
+        <script>
+            function hideCard() {
+                let x = document.getElementsByClassName("flash-card");
+                for(i=0; i<x.length; i++){
+                    x[i].style.display = "none";
+                }
+            }
+
+                function showCard() {
+                let x = document.getElementsByClassName("flash-card");
+                for(i=0; i<x.length; i++){
+                    x[i].style.display = "block";
+                }
+            }
+            function modifyHeader(){
+                document.getElementById("my-header").innerHTML = "This is my new title"
+                console.log("Modificou!");
+            }
+
+        </script>
+    </body>
