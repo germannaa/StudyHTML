@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>
+           Sexto Exercicio HTML
+        </title>
+        <style>
+            #myForm {
+                background-color: cornflowerblue;
+                color: darkblue;
+                border-style: solid;
+                border-width: 2px;               
+                
+            }
+        </style>
+    </head>
+
+    <body>
+        <h2> My First Form </h2>
+        
+        <h3><b> Entre com os dados: </b></h3>
+        <div id = myForm >  
+            <form action="file:///C:/Users/Aluno/Desktop/html/html_class/Exercicio07.html" id = "Formulario">
+                <label for="firstName"> First Name:</label>
+                <input type="text" id = "firstName" placeholder = "Insert your First Name"> 
+                <br/>
+                <label for ="lastName "> Last Name: </label>
+                <input tyoe ="text" id= "lastName" placeholder="Insert your Last Name"> 
+                <br/>
+                <hr>
+                <h4>Choose your gender:</h4>
+                <input type="radio" id="male" name="Gender" value="Male"> 
+                <label> Male </label>
+                <input type="radio" id="female" name="Gender" value="Female"> 
+                <label> Female </label>
+                <input type="radio" id="undefined" name="Gender" value="Undefined" checked> 
+                <label> Undefined </label>
+
+                <br/>
+                <h4>Country:</h4>
+                <input type="radio" id = "br" name = "countries" value="Brasil">
+                <label for="br"> Brasil</label>
+                <br/>
+                <input type="radio" id = "br" name = "countries" value="EUA">
+                <label for="br"> EUA</label>
+                <br/>
+                <input type="radio" id = "br" name = "countries" value="Others">
+                <label for="br"> Other</label>
+                <br/>
+
+                <h4> Preferences   </h4>
+                <input type="checkbox" id = "comedy" name="preferences" value="Comedy">
+                <label for="comedy"> Comedy </label>
+                <input type="checkbox" id = "reserarch" name="preferences" value="Reserarch">
+                <label for="reserarch" > Reserarch </label>
+                <input type="checkbox" id = "coding" name="preferences" value="Coding">
+                <label for="coding"> Coding </label>
+                <input type="checkbox" id = "soapopera" name="preferences" value="soapOpera">
+                <label for="soapopera"> Soap Opera </label>
+
+                <h4>  </h4>
+                <button type="submit" onclick="dataSend()"> Send </button>
+             </form>
+        </div>
+       
+    </body>
+
+    <script>
+        function dataSend() {
+            var form = document.getElementById("Formulario");
+            var name = formdata.getElement["firstName"].value; 
+            console.log (firstName);
+
+            window.alert(firstName);
+            
+          }
+    </script>
