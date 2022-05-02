@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>
+            RESULT Exercicio HTML
+         </title>
+        </head>
+        
+        <body>
+        
+        <h1> Processamento funcionnou!</h1>
+        <p>Dados enviados com sucesso</p>
+
+    </body>
