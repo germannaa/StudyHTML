@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <meta charset = "UTF-8">
+        <title>
+           Terceira Questao Revisão 
+        </title>
+        </head>
+
+        <body>
+            <div  style="border-color:rgb(114, 63, 245); border-style: solid; border-width: 4px;">
+                <p>Mudanças de Linha</p>
+                <p>
+                    "No mundo dos negócios todos são pagos com duas <br/>
+                    moedas: Dinheiro e Experiência... Agarre a experiencia <br/>
+                     primeiro, o dinheiro virá depois." -- Harold Geenen
+                </p>
+
+               <p>
+                   "Há homens que lutam um dia e são bons. <br/>
+                   Há outros que lutam muitos dias e são melhores. <br/>
+                   Mas há os que lutam todos os dias e estes são<br/>
+                   imprescindiveis."
+                   <br/>
+                   --Bertolt Brecht
+               </p>
+
+            </div>
+
+        </body>
