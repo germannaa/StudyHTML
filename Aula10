@@ -1,0 +1,24 @@
+lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>
+           Setimo Exercicio HTML
+        </title>
+    </head>
+
+    <body>
+        <form>
+            <h3>Exemplo output</h3>
+            <div oninput="result.value=parseInt(num1.value) + parseInt(num2.value)">
+                <input type="number" name="num1" id="num1" value="10">
+                +
+                <input type="number" name="num2" id="num2" value="10">
+                =
+                <output name="result" for="output"></output>
+                <br/>
+                <br/>
+                <button type="button"> Calcular</button>
+            </div>
+        </form>
+
+    </body>
