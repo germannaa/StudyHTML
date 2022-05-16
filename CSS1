@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>
+           CSS 1
+        </title>
+        <style>
+            *{
+                font-family: monospace;
+            }
+            .titulo{
+                text-align: center;
+            }
+            .my-card {
+                text-align: center;
+                background-color: purple;
+                color: aliceblue;
+                padding: 10px;
+            }
+            .my-card:hover{
+                background-color: blue;
+            }
+            .my-card:first-child{
+                color: violet;
+            }
+            span{
+                color: greenyellow;
+            }
+            a:link{
+                color: blue;
+            }
+            a:visited{
+                color: red;
+            }
+            a:hover{
+                color: darkgray;
+            }
+            a:active{
+                color: green;
+            }
+            .paragrafo {
+                background-color:rgb(179, 234, 248);
+                text-align: center;
+            }
+            .paragrafo::first-line{
+                color: rgb(175, 9, 167);
+                word-spacing: 1em;
+                font-weight: lighter;
+            }
+            .paragrafo::first-letter{
+                font-size: xx-large;
+                font-family: cursive;
+                font-weight: bold;
+            }
+            .paragrafo::before{
+                content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJGXnYua2JS4FEORdk9OHoMm0prNs7aSYL9Q&usqp=CAU);
+            }
+            .paragrafo::after{
+            
+                content: url(data:image/jpeg;base64,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);
+            }
+
+            ul li::marker{
+                text-align: left;
+                color: blue;
+                font-size: 22px;
+            }
+
+            ::selection{
+                background-color: yellow;
+            }
+        </style>
+
+    </head>
+
+    <body>
+    
+            <h3 class="titulo">CSS Aula 01</h3>
+            <div class="my-card">
+                <h1> Hello <span> World!</span></h1>
+                <p> This is my card</p>
+                
+                <br/>
+                <br/>
+                
+            </div>
+            <div class="my-card">
+                <h1> Hello World!</h1>
+                <p> This is my card</p>
+                
+                <br/>
+                <br/>
+                
+            </div>
+            <div class="my-card">
+                <h1> Hello World!</h1>
+                <p> This is my card</p>
+                
+                <br/>
+                <br/>
+                
+            </div>
+            <div class="my-card">
+                <h1> Hello World!</h1>
+                <p> This is my card</p>
+                
+                <br/>
+                <br/>
+                
+            </div>
+
+            <button onclick="">Add</button>
+
+            <nav>
+                <br/>
+                <a href="https://www.google.com/">  Google </a>
+                <a href="https://github.com/germannaa/StudyHTML">  Git </a>
+                <a href="https://pt.wikipedia.org/wiki/Google">  wikipedia </a>
+                <a href="https://www.tecmundo.com.br/google">  Techmundo </a>
+                <a href="Teste2">  Teste 2 </a>
+                <a href="Teste3">  Teste 3 </a>
+
+            </nav>
+       
+            <div>
+                <p class="paragrafo">
+                    <br/>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum. Maecenas ultricies dui a egestas ullamcorper. Phasellus non semper tellus. Ut in ligula ut nulla dignissim varius a ac augue. Integer sed purus mi. Mauris dignissim tristique volutpat. Aliquam ac neque ac neque fermentum congue vel a nisi. Duis molestie, quam at vehicula ullamcorper, risus leo sagittis dolor, id varius velit tortor quis risus. Vivamus rhoncus tempor velit. Proin quis ipsum nec sapien aliquam ultrices. Phasellus interdum tempus arcu quis accumsan. Morbi eget accumsan purus. Proin dapibus mi sed lacus molestie, quis blandit augue interdum. Curabitur eget mi et nulla aliquam bibendum. Mauris facilisis lacinia sapien, non feugiat libero auctor nec. Vivamus quis eros dapibus, facilisis dui pretium, pellentesque dui.
+
+Vestibulum volutpat facilisis est id ornare. Donec sed nunc iaculis, ullamcorper sapien nec, feugiat neque. Suspendisse potenti. Aenean pulvinar enim at molestie euismod. Integer arcu lectus, sagittis et dignissim sed, sollicitudin faucibus augue. Mauris vitae porta eros. Etiam lobortis mauris at metus mattis accumsan. Nam et diam mollis dui volutpat suscipit eget eu ante. Pellentesque dui tortor, mattis id molestie at, aliquam eget risus. Mauris ut nunc at tellus ornare facilisis. Duis at egestas elit. Praesent consectetur mi placerat, cursus dolor ut, rutrum ipsum. Nam at quam commodo, tristique tellus suscipit, imperdiet nibh. Sed posuere porttitor massa sed bibendum. Donec fringilla, odio et porta scelerisque, ante tellus imperdiet dui, in efficitur metus risus sit amet sapien. Aenean id urna sit amet nibh tincidunt tincidunt vitae non quam.
+<br/>
+                </p>
+            </div>
+
+
+            <nav>
+                <ul>
+                    <li>Exemplo</li>
+                    <li>Exemplo</li>
+                    <li>Exemplo</li>
+                    <li>Exemplo</li>
+                    <li>Exemplo</li>
+    
+                </ul>
+            </nav>
+    </body>
+
+<!-- <script>
+    function addCard(){
+        var card = document.getElementsByClassName('my-card');
+        document.body.append(card);
+    }
+    ctrl + k
+</script> -->
+</html>
