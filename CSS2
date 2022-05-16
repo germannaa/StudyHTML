@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>
+           CSS 2
+        </title>
+
+        <style>
+            .my-card {
+                border: 3px;
+                border-color: yellow;
+            }
+            div p {
+                color: rgb(42, 17, 134);
+            }
+            ul li{
+                text-align: left;
+                color: red;
+            }
+        </style>
+
+
+        </head>
+
+
+<body>
+<div class="my-card">
+    <h2>Titulo</h2>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum. </p>
+        <p>Maecenas ultricies dui a egestas ullamcorper. Phasellus non semper tellus. Ut in ligula ut nulla dignissim varius a ac augue. </p>
+        <p>Integer sed purus mi. Mauris dignissim tristique volutpat. Aliquam ac neque ac neque fermentum congue vel a nisi. Duis molestie, quam at vehicula ullamcorper, risus leo sagittis dolor, id varius velit tortor quis risus. Vivamus rhoncus tempor velit. </p>
+        <p>Proin quis ipsum nec sapien aliquam ultrices. Phasellus interdum tempus arcu quis accumsan. Morbi eget accumsan purus. Proin dapibus mi sed lacus molestie, quis blandit augue interdum. </p>
+        <p>Curabitur eget mi et nulla aliquam bibendum. Mauris facilisis lacinia sapien, non feugiat libero auctor nec. Vivamus quis eros dapibus, facilisis dui pretium, pellentesque dui.</p>
+
+    <nav>
+        <ul>
+            <li>Exemplo</li>
+            <li>Exemplo</li>
+            <li>Exemplo</li>
+            <li>Exemplo</li>
+            <li>Exemplo</li>
+
+        </ul>
+    </nav>
+</div>
+
+</body>
