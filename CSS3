@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>
+           CSS 3
+        </title>
+
+        <link rel="stylesheet" href = "C:\Users\Aluno\Desktop\html\html_class\CSS\style.css">
+        
+        </head>
+
+        <body>
+
+
+            <div class="my-card">
+                <h1>Titulo</h1>
+            
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum. </p>
+                
+                <div>
+                    <p>Maecenas ultricies dui a egestas ullamcorper. Phasellus non semper tellus. Ut in ligula ut nulla dignissim varius a ac augue. </p>
+                </div>  
+
+                <p>Integer sed purus mi. Mauris dignissim tristique volutpat. Aliquam ac neque ac neque fermentum congue vel a nisi. Duis molestie, quam at vehicula ullamcorper, risus leo sagittis dolor, id varius velit tortor quis risus. Vivamus rhoncus tempor velit. </p>
+                
+                <div>
+                    <p>Maecenas ultricies dui a egestas ullamcorper. Phasellus non semper tellus. Ut in ligula ut nulla dignissim varius a ac augue. </p>
+                </div> 
+
+                    <p>Proin quis ipsum nec sapien aliquam ultrices. Phasellus interdum tempus arcu quis accumsan. Morbi eget accumsan purus. Proin dapibus mi sed lacus molestie, quis blandit augue interdum. </p>
+                    
+                    <p>Curabitur eget mi et nulla aliquam bibendum. Mauris facilisis lacinia sapien, non feugiat libero auctor nec. Vivamus quis eros dapibus, facilisis dui pretium, pellentesque dui.</p>
+            </div>
+
+
+        </body>
