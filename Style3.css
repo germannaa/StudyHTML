@@ -1,0 +1,22 @@
+*{
+ font-family: monospace;
+
+}
+
+body{
+    border: solid 3px;
+}
+
+.titulo {
+    color: green;
+    text-decoration: underline;   
+
+}
+
+.subtitulo{
+    color: rgb(8, 241, 86);
+}
+
+.texto::before{
+    content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJGXnYua2JS4FEORdk9OHoMm0prNs7aSYL9Q&usqp=CAU);
+}
