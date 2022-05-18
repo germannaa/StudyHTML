@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>
+           CSS 4
+        </title>
+
+        <link rel="stylesheet" href = "C:\Users\Aluno\Desktop\html\html_class\CSS\style2.css">
+        
+        </head>
+
+        <body>
+
+
+            <div class="my-card">
+                <h1>Titulo</h1>
+            
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum. </p>
+                
+                 </div>
+
+                 <div class="image">
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum. </p>
+
+
+                 </div>
+
+
+        </body>
