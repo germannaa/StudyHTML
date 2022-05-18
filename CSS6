@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>
+           CSS 6
+        </title>
+
+        <style>
+            div{
+                background-color: silver;
+                color: black;
+                width: 300px;
+                border: 10px solid brown;
+                padding: 30px;
+                margin: 15px;
+            }
+        </style>
+     
+        
+        </head>
+
+        <body>
+
+
+            <div>
+                <h1> Titulo</h1>
+            
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat sit amet urna id rutrum. </p>
+                
+            </div>
+
+           
+
+
+        </body>
