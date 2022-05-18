@@ -1,0 +1,18 @@
+
+           
+    * {
+        font-family: monospace;
+    }
+
+           div ~p{
+                border: 1px solid black;
+                color: rgb(0, 0, 255);
+            }
+            
+    .my-card {
+        border-style: double;
+        border-width: 2px;
+
+    }
+
+ 
