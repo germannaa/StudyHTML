@@ -1,0 +1,34 @@
+        
+    * {
+        font-family: monospace;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        color: aliceblue;
+        background-color: rgb(53, 53, 192);
+        opacity: 0.5;
+        border: 5px rgb(19, 10, 134) solid;
+      border-radius: 20px;
+    }
+    
+    .image {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd0XRE9SMjpd-c7_gQIxJ6mxMh8A8yazU4Qg&usqp=CAU);
+        background-repeat: repeat-x;
+        
+
+    }
+
+    body {
+        /*
+        background-image: url(../triangles-1430105_960_720.webp);
+      */
+
+      
+      border: 5px red dashed;
+      border-radius: 10px;
+        
+    }
