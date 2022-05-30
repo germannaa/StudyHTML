@@ -1,0 +1,81 @@
+/*Fonte utilizada */
+
+* {
+    font-family: monospace;
+
+}
+/* Retirando as marcações da ul*/
+
+ul {
+list-style-type: none;
+}
+
+/*alinhamento central div */
+#calendario {
+    width: 50%;
+    margin: 0 auto;
+    align-content: center;
+}
+
+/*Ajustando Div para os meses*/
+#meses {
+    padding: 30px 20px;
+    text-align: center;
+    background-color: #F55;
+    border-radius: 10px 10px 0 0;
+}
+
+/*Retirando espaçamento as ul */
+#meses ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*Ajustando o conteudo dos li's*/
+#meses ul li {
+    font-weight: bold;
+    font-size: larger;
+    text-transform: uppercase;
+    color: white;
+}
+
+/*Ajustando as setas de antes e depois*/
+#meses .antes {
+    float: left;
+}
+#meses .depois {
+    float: right;
+}
+
+/* Zerando margem e adicionando padding superior*/
+#dias-da-semana {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #4F4F4f;
+}
+
+/* Deixando os elementos em linha */
+#dias-da-semana li {
+    display: inline-block;
+    width: 12.9%;
+    text-align: center;
+    color: white;
+}
+
+/*Estilizando a area central */
+#dias-valores {
+    margin: 0;
+    padding: 15px 0;
+    background-color: #DCDCDC;
+    border-radius: 0 0 10px 10px;
+}
+
+/*Alinhando os elementos como inline-block*/
+#dias-valores li {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 12.9%;
+    font-size: 1em;
+    color: #363636;
+}
