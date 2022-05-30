@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        
+        <title> Testando Flex Wrap </title>
+        <style>
+            .container-flex{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                background-color: blue;
+            }
+
+            .container-flex > div {
+                background-color: rgb(100, 39, 82);
+                width: 100px;
+                margin: 10px;
+                text-align: center;
+                color: aliceblue;
+                font-size: 24px;
+                    }
+
+            </style>
+    </head>
+
+    <body>
+<div class="container-flex">
+    <div> A </div>
+    <div> B </div>
+    <div> C </div>
+    <div> D </div>
+    <div style="order: 1;"> E </div>
+    <div> F </div>
+    <div> G </div>
+    <div> H </div>
+    <div style="order: 2;"> I </div>
+    <div> J </div>
+    <div> K </div>
+    <div style="align-self: center;"> L </div>
+    <div style="order: 3;"> M </div>
+    <div style="flex-shrink: 0;"> N </div>
+    <div style="flex-grow: 5000;"> O </div>
+
+</div>
+
+    </body>
+</html>
