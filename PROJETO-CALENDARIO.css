@@ -79,3 +79,16 @@ list-style-type: none;
     font-size: 1em;
     color: #363636;
 }
+
+/* Estilizando o dia atual */
+#dias-valores li.ativo {
+    padding: 0.5em;
+    color: white;
+    background-color: #F55;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+}
+
+    
+
