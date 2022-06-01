@@ -91,4 +91,19 @@ list-style-type: none;
 }
 
     
+@media screen and (max-width: 600px) {
+    #calendario {
+        width: 100%;
+        margin: 0 0;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    #dias-semana li,
+    #dias-valores li {
+        width: 11%;
+    }
+    
+}
 
