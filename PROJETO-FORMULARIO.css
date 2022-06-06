@@ -66,7 +66,7 @@ form {
 form input, button {
     margin: 10px 20px 5px 20px;
     padding: 10px;
-    width: 80%;
+    width: 80%; /*Para ajustar, e nao dar overflow, por causa dos outros componentes*/
     border-radius: 5px;
     border: 1px solid lightgray;
 }
@@ -94,4 +94,31 @@ button:hover {
     color: rgba(253,29,29,0.76);
     font-weight: bold;
     cursor: pointer;
+}
+
+
+/*Responsividade*/
+
+@media all and (max-width: 700px) {
+    .content {
+        display: block;
+        align-content: center;
+        margin: 0;
+        width: 100vw;
+        padding: 15px;
+    }
+    
+    .card-message {
+        float: none;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        width: 90vw;
+        height: auto;
+    }
+    .form-card {
+        float: none;
+        width: 90vw;
+        height: auto;
+    }
 }
