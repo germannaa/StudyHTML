@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: rgb(131, 58, 180);
+    background-color: #4158D0;
+    background-image: linear-gradient(90deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
+    color: white;
+}
+
+.content {
+    display: inline-block;
+    margin: 10%;
+    padding: 10px;
+}
+
+.card-message {
+    float: left;
+    width: 45%; 
+    /*Pois ja tem 10% de margem. Dois cards de 45 + 10 de margem = 100%*/
+    height: 100vh;
+}
+
+.card-message h1 {
+    font-size: xx-large;
+    padding-bottom: 20px;
+}
+
+.form-card {
+    float: right;
+    width: 45%;
+    height: 100vh;
+}
+
+.form-card .trial{
+    font-size: small;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(131, 58, 180);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-card .trial span {
+    font-weight: lighter;
+    font-size: x-small;
+    align-content: center;
+}
+
+.form-card .register {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+form {
+    text-align: center;
+}
+
+form input, button {
+    margin: 10px 20px 5px 20px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+form button {
+    background-color: rgb(103, 200, 143);
+    color: white;
+    text-transform: uppercase;
+    border-color: none;
+}
+
+button:hover {
+    background-color: rgba(131,58,180,1);
+}
+
+.register p {
+    font-size: x-small;
+    color: gray;
+    padding: 15px;
+    text-align: center;
+}
+
+.register p a {
+    text-decoration: none;
+    color: rgba(253,29,29,0.76);
+    font-weight: bold;
+    cursor: pointer;
+}
