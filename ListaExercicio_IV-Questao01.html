@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>
+            Exercicio HTML/CSS - Revisão - Questao 01
+         </title>
+
+         <style>
+            * {
+                background-color: rgb(207, 211, 219);
+                border-width: 2px;               
+            }
+
+            .titulo {
+                color: green;
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+
+
+            form {
+                margin: 10%;
+                padding: 1px;
+            }
+
+            #pessoais {
+                margin: 10%;
+                padding: 1px;
+            }
+
+
+            div {
+                border-width: 3px;
+                border-style: solid;
+                border-color: black;
+            }
+              
+            </style>
+
+        </head>
+        
+        <body>
+            <div>
+        
+            <form class="formulario">   
+            <legend>
+                <h2 class="titulo"> Contato IFBA </h2>
+                <p class="dados"> Rua José Rodrigues Santos, S/N - Bairro Nobre <br/>
+                Brumado - Bahia - BR </br/>
+                Telefone (xx) XXXX-XXXX 
+             </p>
+            </legend>
+            <fieldset id="Pessoais">
+                <label for="Nome"> Nome:</label>
+                <input type="text" id = "Nome" placeholder = "Nome"> 
+                <br/> 
+                <label for ="email "> E-mail: </label>
+                <input type ="text" id= "email" placeholder="E-mail"> 
+                <br/>
+                <label for ="assunto "> Assunto: </label>
+                <input type ="text" id= "assunto" placeholder="Assunto"> 
+                <br/>
+                <label for="mensagem">Mensagem:</label>
+                <br/>
+                <textarea name="mensagem" id="mensagem" rows="10" cols="30"></textarea>
+            </fieldset>
+            <br/>
+            <button type="button" onclick="alert('Enviado!')"> Enviar! </button>
+            </form>
+        </div>
+
+    </body>
