@@ -17,10 +17,89 @@
 
         <button onclick="popUpTitle()">Pressione para mudar o Cabeçalho</button>
 
+        <p id="p1_id">Paragrafo 01</p>
+        <p>Paragrafo 02</p>
+
+
+        <p>Total de paragrafos: <span id="result"> </span></p>
+        <button onclick="returnTotalParagraphs()">Total Paragraphs</button>
+        
+
+
+        <h1 class="title"> Cabeçalho 2</h1>
+        <p class="phrase"> Example</p>
+        <p class="example" style="display: none;">JavaScript</p>
+        <p class="example" style="display: none;">JavaScript2</p>
+        <p class="example" style="display: none;">JavaScript3</p>
+        <button onclick="showPhrase()">Show Phrase</button>
+
+        <button onclick="removeClass()">Remove Class</button>
+
+
+
+
+        <h1 class="title"> Cabeçalho 3</h1>
+        <p class="phrase"> Example</p>
+        <p class="example" style="display: none;">JavaScript</p>
+        <p class="example" style="display: none;">JavaScript2</p>
+        <p class="example" style="display: none;">JavaScript3</p>
+
+        <button type="button" onclick="changeButton()">~Change Color AAAALLLL Buttons</button>
+        <button type="button" onclick="changeButton()">~Change Color Button</button>
+        <button type="button" onclick="changeButton()">~Change Color Button</button>
+        <button type="button" onclick="changeButton()">~Change Color Button</button>
+        <button type="button" onclick="changeButton()">~Change Color Button</button>
+
+
+
+
+
+
+
         <script>
             function popUpTitle() {
                 document.getElementById("h1_id").innerHTML = "Tcharan! Taí o novo Cabeçalho";
             }
+
+            function returnTotalParagraphs(){
+                var paragraphs = document.getElementsByTagName("p");
+                var i, cont = 0;
+                var cont2 = paragraphs.length;
+                for (I=0; i< paragraphs.length; i++) {
+                    cont++;
+                }
+                document.getElementById("result").innerHTML = cont
+            }
+
+            function showPhrase() {
+                var paragraphs = document.getElementsByClassName("example");
+                for (i=0; i<paragraphs.length; i++) {
+                    paragraphs[i].style.display = "block";    
+                    paragraphs[i].classList.add("new_class");
+                            }
+                var new_paragraphs = document.getElementsByClassName("new_class");
+                window.alert("Total of 'newclass':  " + new_paragraphs.length);
+            }
+
+            function removeClass() {
+                var paragraphs=document.getElementsByClassName("example");
+                for (i=0; i<paragraphs.length; i++) {
+                    paragraphs[i].classList.remove("example");    
+                    /*paragraphs[i].className(""); -Alterando nome da classe*/
+                            }
+
+            }
+
+            function changeButton(){
+               /* var myButtons = document.querySelector("[type=button]");*/
+               var myButtons = document.querySelectorAll("[type=button]");
+               for (var i=0; i<myButtons.length;i++) {
+                myButtons[i].style.color = "white";
+                myButtons[i].style.backgroundColor = "lightblue";
+               }
+            }
+        
+        
         </script>
 
     </body>
