@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>
+            Exercicio HTML e JS
+        </title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport"  content="width = device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <h2> Treinando Html + JS :) </h2>
+        <br/>
+
+        <h1 id="h1_id"> Cabeçalho </h1>
+
+        <button onclick="popUpTitle()">Pressione para mudar o Cabeçalho</button>
+
+        <script>
+            function popUpTitle() {
+                document.getElementById("h1_id").innerHTML = "Tcharan! Taí o novo Cabeçalho";
+            }
+        </script>
+
+    </body>
+</html>
